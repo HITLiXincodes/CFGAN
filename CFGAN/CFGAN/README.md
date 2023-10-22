@@ -17,7 +17,7 @@ In this work, we conduct reverse attacks for evaluating the privacy leakage risk
  We propose a two-stage deep generation model called Coarse-to-Fine Generative Adversarial Network (CFGAN) to conduct reverse attacks for evaluating the privacy leakage risk of SIFT features. Specifically, the proposed model consists of two sub-networks, namely coarse net and fine net. The coarse net is developed to restore coarse images using SIFT features, while the fine net is responsible for refining the coarse images to obtain better reconstruction results. 
 
 <p align='center'>  
-  <img src='https://github.com/HighwayWu/SIFT_Reconstruction/blob/master/imgs/framework.jpg' width='870'/>
+  <img src='https://github.com/HITLiXincodes/CFGAN/blob/main/CFGAN/CFGAN/images/whole.png' width='870'/>
 </p>
 <p align='center'>  
   <em>Framework of CFGAN model.</em>
