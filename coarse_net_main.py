@@ -43,6 +43,7 @@ class SIFTReconstruction():
             ssim, psnr = [], []
             print('\nTest '  + ' model:')
             self.img_model.load('coarse_net' + '/')
+            self.img_model.eval()
             if not os.path.exists('res/coarse_net'):
                 os.makedirs('res/coarse_net')
             for cnt, items in enumerate(self.test_loader):
