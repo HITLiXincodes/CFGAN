@@ -44,6 +44,7 @@ class SIFTReconstruction():
 
     def test(self, pretrained=False):
         if pretrained:
+            self.img_model.eval()
             ssim, psnr = [], []
             print('\nTest ' + ' model:')
             self.img_model.load('CFGAN' + '/')
