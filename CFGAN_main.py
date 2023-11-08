@@ -44,11 +44,12 @@ class SIFTReconstruction():
 
     def test(self, pretrained=False):
         if pretrained:
-            self.img_model.eval()
             ssim, psnr = [], []
             print('\nTest ' + ' model:')
             self.img_model.load('CFGAN' + '/')
             self.prior.load('coarse_net'+'/')
+            self.img_model.eval()
+            self.prior.eval()
             if not os.path.exists('res/CFGAN'):
                 os.makedirs('res/CFGAN')
             for cnt, items in enumerate(self.test_loader):
