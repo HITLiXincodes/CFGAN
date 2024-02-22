@@ -53,4 +53,15 @@ For more details please refer to the paper.
 
 ## Citation
 
-If you use this code for your research, please cite our paper
+If you use this code for your research, please cite this paper
+```
+@ARTICLE{10440359,
+  author={Li, Xin and Zhu, Guopu and Wang, Shen and Zhou, Yicong and Zhang, Xinpeng},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Deep Reverse Attack on SIFT Features With a Coarse-to-Fine GAN Model}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2024.3367808}}
+```
