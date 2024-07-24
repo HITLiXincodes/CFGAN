@@ -35,7 +35,7 @@ To train or test the CFGAN model, please download datasets from their official w
 The pre-trained models should be put under the `./weights/` directory.
 
 **Note: The pretrained weights can be downloaded from:
-[Baidu Yun (Code: )]()**
+[Baidu Yun (Code:h5K7)](https://pan.baidu.com/s/1OA1FUYp7NYdUqVw0xHOXLQ )**
 
 ## Demo
 
